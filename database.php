@@ -2,9 +2,9 @@
 //Create credentials for connection_aborted
 
 $db_host = 'localhost';
-$db_name = 'd002b36b';
-$db_user = 'd002b36b';
-$db_pass = 'koZ9ww7NRExNbySe';
+$db_name = 'quiz';
+$db_user = 'root';
+$db_pass = '1234';
 
 //Create mysqli object
 
