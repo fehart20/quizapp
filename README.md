@@ -1,6 +1,6 @@
 # Quiz App
 
-A customizable Quizapp runs php and MySQL
+A customizable, responsive Quizapp runs php and MySQL
 
 ### Installing
 
