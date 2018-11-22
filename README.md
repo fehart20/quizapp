@@ -1,11 +1,11 @@
 # Quiz App
 
-A customizable quiz app runs php and mysql
+A customizable Quizapp runs php and MySQL
 
 ### Installing
 
 Download repository and put it on your FTP-Host.
-Make a SQL Database and edit the file 'database.php' to your database-data.
+Create a MySQL-Database named 'quiz' and edit the file 'database.php' to your database credentials.
 Make two tables in this database with sql-commands:
 
 ```
