@@ -16,12 +16,12 @@ and
 CREATE TABLE `quiz`.`choices_tak` ( `id` INT NOT NULL AUTO_INCREMENT , `question_number` INT NOT NULL , `is_correct` TINYINT NOT NULL DEFAULT '0' , `text` TEXT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
 ```
 
-Now add a question on
+Add a question on
 ```
 http://yourdomain/add.php
 ```
 
-You can reach the quiz with easily typing in your domain.
+Now you can reach the quiz with easily typing in your domain.
 
 
 
