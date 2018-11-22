@@ -47,7 +47,7 @@ include "database.php";
 						}
 				}
 			}
-			$msg = 'Frage wurde hinzugef&uuml;gt';
+			$msg = 'Question added!';
 		}
 	}
 	
@@ -65,7 +65,7 @@ include "database.php";
 <body>
 	<main>
 		<div class="container">
-			<h2>Frage hinzuf&uuml;gen</h2>
+			<h2>Add a question</h2>
 			<?php
 				if(isset($msg)) {
 					echo '<p>'.$msg.'</p>';
@@ -73,39 +73,39 @@ include "database.php";
 			?>
 			<form method="post" action="add.php">
 				<p>
-					<label>Nummer der Frage: </label>
+					<label>Question number: </label>
 					<input type="number" value="<?php echo $next; ?>" name="question_number" />
 				</p>
 				<p>
-					<label>Text der Frage: </label>
+					<label>Question text: </label>
 					<input type="text" name="question_text" />
 				</p>
 				<p>
-					<label>Antwort #1: </label>
+					<label>Answer #1: </label>
 					<input type="text" name="choice1" />
 				</p>
 				<p>
-					<label>Antwort #2: </label>
+					<label>Answer #2: </label>
 					<input type="text" name="choice2" />
 				</p>
 				<p>
-					<label>Antwort #3: </label>
+					<label>Answer #3: </label>
 					<input type="text" name="choice3" />
 				</p>
 				<p>
-					<label>Antwort #4: </label>
+					<label>Answer #4: </label>
 					<input type="text" name="choice4" />
 				</p>
 				<p>
-					<label>Antwort #5: </label>
+					<label>Answer #5: </label>
 					<input type="text" name="choice5" />
 				</p>
 				<p>
-					<label>Nummer der richtigen Antwort: </label>
+					<label>Number of correct answer: </label>
 					<input type="number" name="correct_choice" />
 				</p>
 				<p>
-					<input type="submit" name="submit" value="Abschicken" />
+					<input type="submit" name="submit" value="Submit" />
 				</p>
 			</form>
 		</div>
