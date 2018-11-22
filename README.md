@@ -1,2 +1,2 @@
 # quizapp
-A customizable quiz-app runs php and sql
+A customizable quiz-app runs php and mysql
