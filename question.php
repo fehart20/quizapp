@@ -1,7 +1,7 @@
 <?php session_start(); ?>
 <?php
 	include "head.php";
-	include "database.php";s
+	include "database.php";
 ?>
 <?php
 	//Set question number
