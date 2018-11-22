@@ -1,5 +1,5 @@
 <footer>
 		<div class="container">
-			Copyright &copy; <?php echo date("Y"); ?> FH-Development
+			Copyright &copy; <?php echo date("Y"); ?> <a href="https://github.com/fehart20/quizapp/">fehart20</a>
 		</div>
 </footer>
