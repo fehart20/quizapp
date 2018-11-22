@@ -1,4 +1,4 @@
-# Quiz App
+# Quizapp
 
 A customizable, responsive Quizapp runs php and MySQL
 
