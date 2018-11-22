@@ -4,7 +4,27 @@ A customizable quiz app runs php and mysql
 
 ### Installing
 
-Download repository and put it on your FTP-Host. Make a SQL Database and rename the file 'database.php'. Then make two tabeles named: 'questions_tak' and 'choices_tak'.
+Download repository and put it on your FTP-Host.
+Make a SQL Database and edit the file 'database.php' to your database-data.
+Make two tables in this database with sql-commands:
+
+```
+CREATE TABLE `quiz`.`questions_tak` ( `question_number` INT NOT NULL , `text` TEXT NOT NULL , PRIMARY KEY (`question_number`)) ENGINE = InnoDB;
+```
+and
+```
+CREATE TABLE `quiz`.`choices_tak` ( `id` INT NOT NULL AUTO_INCREMENT , `question_number` INT NOT NULL , `is_correct` TINYINT NOT NULL DEFAULT '0' , `text` TEXT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+```
+
+Now add a question on
+```
+http://yourdomain/add.php
+```
+
+You can reach the quiz with easily typing in your domain.
+
+
+
 
 ## Authors
 
