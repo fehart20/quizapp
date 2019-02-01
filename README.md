@@ -28,7 +28,7 @@ Now you can reach the quiz with easily typing in your domain.
 
 ## Authors
 
-* **fehart20** - *Initial works* - [fehart20](https://github.com/fehart20)
+* **fehart20** - *Initial work* - [fehart20](https://github.com/fehart20)
 
 
 
