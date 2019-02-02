@@ -43,7 +43,7 @@ include "database.php";
 						if($insert_row) {
 							continue;
 						} else {
-							die('Fehler: ('.$mysqli->error . ') '.$mysqli->error);
+							die('Error: ('.$mysqli->error . ') '.$mysqli->error);
 						}
 				}
 			}
