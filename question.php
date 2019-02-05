@@ -1,6 +1,6 @@
 <?php session_start(); ?>
 <?php
-	include "head.php";
+	include "heads.php";
 	include "database.php";
 ?>
 <?php
