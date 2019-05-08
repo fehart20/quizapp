@@ -5,7 +5,7 @@ A customizable, responsive Quizapp runs php and MySQL
 ### Installing
 
 Download repository and put it on your FTP-Host.
-Create a MySQL-Database named 'quiz' and edit the file 'database.php' to your database credentials.
+Create a MySQL-Database named 'quiz' and edit the file 'database.php' to fit your database credentials.
 Make two tables in this database with sql-commands:
 
 ```
