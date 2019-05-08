@@ -74,23 +74,23 @@ include "database.php";
 			<form method="post" action="add.php">
 				<p>
 					<label>Question number: </label>
-					<input type="number" value="<?php echo $next; ?>" name="question_number" />
+					<input type="number" value="<?php echo $next; ?>" min="<?php echo $next; ?>" name="question_number" required />
 				</p>
 				<p>
 					<label>Question text: </label>
-					<input type="text" name="question_text" />
+					<input type="text" name="question_text" required />
 				</p>
 				<p>
 					<label>Answer #1: </label>
-					<input type="text" name="choice1" />
+					<input type="text" name="choice1" required/>
 				</p>
 				<p>
 					<label>Answer #2: </label>
-					<input type="text" name="choice2" />
+					<input type="text" name="choice2" required/>
 				</p>
 				<p>
 					<label>Answer #3: </label>
-					<input type="text" name="choice3" />
+					<input type="text" name="choice3" required/>
 				</p>
 				<p>
 					<label>Answer #4: </label>
@@ -102,7 +102,7 @@ include "database.php";
 				</p>
 				<p>
 					<label>Number of correct answer: </label>
-					<input type="number" name="correct_choice" />
+					<input type="number" name="correct_choice" min="1" max="5" required/>
 				</p>
 				<p>
 					<input type="submit" name="submit" value="Submit" />
