@@ -16,7 +16,7 @@ and
 CREATE TABLE `quiz`.`choices_tak` ( `id` INT NOT NULL AUTO_INCREMENT , `question_number` INT NOT NULL , `is_correct` TINYINT NOT NULL DEFAULT '0' , `text` TEXT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
 ```
 
-Add a question on
+Add your questions on
 ```
 http://yourdomain/add.php
 ```
